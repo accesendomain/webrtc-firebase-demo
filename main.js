@@ -1,10 +1,15 @@
-import './style.css';
-
 import firebase from 'firebase/app';
 import 'firebase/firestore';
 
 const firebaseConfig = {
   // your config
+  apiKey: "AIzaSyCUscoAPkmtCr-vpMyWG58LTc-9XOGo0cw",
+  authDomain: "sayuns-122524.firebaseapp.com",
+  projectId: "sayuns-122524",
+  storageBucket: "sayuns-122524.firebasestorage.app",
+  messagingSenderId: "488895093930",
+  appId: "1:488895093930:web:2f6de37d906836f7ba44d3",
+  measurementId: "G-ZNHH33TB5F"
 };
 
 if (!firebase.apps.length) {
